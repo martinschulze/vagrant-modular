@@ -12,6 +12,10 @@ fi
 git submodule init
 git submodule update
 
+touch data/ssh/id_rsa
+touch data/ssh/id_rsa.pub
+touch data/ssh/config
+
 vagrant up
 vagrant reload
 vagrant vbguest --do install
