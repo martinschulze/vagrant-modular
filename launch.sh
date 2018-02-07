@@ -9,6 +9,9 @@ then
   cp data/commands.txt.example data/commands.txt
 fi
 
+git submodule init
+git submodule update
+
 vagrant up
 vagrant reload
 vagrant vbguest --do install
