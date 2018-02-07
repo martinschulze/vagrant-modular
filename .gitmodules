@@ -1,0 +1,6 @@
+[submodule "modules/timezone"]
+	path = modules/timezone
+	url = https://github.com/saz/puppet-timezone.git
+[submodule "modules/eclipse"]
+	path = modules/eclipse
+	url = https://github.com/runthebusiness/puppet-eclipse.git
